@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/jessie/Desktop/SuDian_And/andlang/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/jessie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jessie/Desktop/SuDian_And/andlang/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"andlang-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "andlang",
+			"buildCommand" : "/Users/jessie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jessie/Desktop/SuDian_And/andlang/.externalNativeBuild/cmake/release/arm64-v8a --target andlang",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=/Users/jessie/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jessie/Library/Android/sdk/ndk-bundle/sysroot  -Dandlang_EXPORTS -isystem /Users/jessie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/jessie/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/jessie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/jessie/Library/Android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/jessie/Desktop/SuDian_And/andlang/src/main/cpp/andlang.cpp",
+					"workingDirectory" : "/Users/jessie/Desktop/SuDian_And/andlang/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/jessie/Desktop/SuDian_And/andlang/build/intermediates/cmake/release/obj/arm64-v8a/libandlang.so",
+			"toolchain" : "5392313163514506451"
+		}
+	},
+	"toolchains" : 
+	{
+		"5392313163514506451" : 
+		{
+			"cCompilerExecutable" : "/Users/jessie/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/jessie/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

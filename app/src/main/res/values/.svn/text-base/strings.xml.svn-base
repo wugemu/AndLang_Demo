@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">素店</string>
+    <string name="tip_exit">再按一次退出程序</string>
+    <string name="tip_btn_fast">操作过快，请休息下</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_banner_detail">BannerDetailActivity</string>
+    <string name="title_activity_news_central">NewsCentralActivity</string>
+    <string name="title_activity_invite_code">InviteCodeActivity</string>
+    <string name="title_activity_bind_phone">BindPhoneActivity</string>
+    <string name="title_activity_invite_people">InvitePeopleActivity</string>
+    <string name="title_activity_bind_userinfo">BindUserinfoActivity</string>
+    <string name="title_activity_sex">SexActivity</string>
+    <string name="title_activity_head_img">HeadImgActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_pay_finish">PayFinishActivity</string>
+    <string name="title_activity_class_fragment">ClassFragment</string>
+</resources>

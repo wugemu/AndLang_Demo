@@ -1,0 +1,9 @@
+<com.nyso.sudian.ui.widget.CustomGridView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_theme"
+    android:visibility="visible"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:numColumns="3"
+    />

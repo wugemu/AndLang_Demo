@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_class"
+        android:textSize="14sp"
+        android:textColor="@color/colorBlack"
+        android:padding="8dp"
+        />
+    <com.nyso.sudian.ui.widget.CustomGridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gv_category_list"
+        android:numColumns="3"
+        android:background="@color/colorWhite" />
+
+</LinearLayout>

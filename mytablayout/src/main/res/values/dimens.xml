@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialog_sku_divider">2dp</dimen>
+    <dimen name="home_subject_line">0dp</dimen>
+    <dimen name="view_toview_two">10dp</dimen>
+    <dimen name="indicator_width">32dp</dimen>
+    <dimen name="group_tab_margin">5dp</dimen>
+</resources>

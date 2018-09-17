@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/base_head"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <LinearLayout
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_head_baseback"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:id="@+id/iv_head_baseback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:src="@mipmap/back"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_head_basetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:text="新的朋友"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:clickable="true"
+        android:id="@+id/ll_head_baseright"
+        android:layout_alignParentEnd="true"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/iv_notice"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/home_notice_white" />
+
+        <TextView
+            android:visibility="visible"
+            android:id="@+id/tv_notice_dot"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/rect_red_point" />
+    </RelativeLayout>
+
+</RelativeLayout>

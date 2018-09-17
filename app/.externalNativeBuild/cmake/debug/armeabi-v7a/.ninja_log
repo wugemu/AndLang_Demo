@@ -1,0 +1,23 @@
+# ninja log v5
+0	484	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+485	695	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+4	477	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+477	673	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+6	801	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+801	1045	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+1	646	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+646	854	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+2	1532	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+1532	1753	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+2	1232	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+1232	1458	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+5	612	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+613	826	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+1	524	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+524	711	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+1	1267	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+1267	1514	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+8	681	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+681	895	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98
+3	473	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	7205d4c671ed5843
+474	681	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libbbcshop.so	4eda7827419fbd98

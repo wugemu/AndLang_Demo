@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/jessie/Desktop/SuDian_And/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/jessie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jessie/Desktop/SuDian_And/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "bbcshop-Release-armeabi-v7a": {
+      "artifactName": "bbcshop",
+      "buildCommand": "/Users/jessie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jessie/Desktop/SuDian_And/app/.externalNativeBuild/cmake/release/armeabi-v7a --target bbcshop",
+      "abi": "armeabi-v7a",
+      "output": "/Users/jessie/Desktop/SuDian_And/app/build/intermediates/cmake/release/obj/armeabi-v7a/libbbcshop.so"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+# ninja log v5
+0	1193	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+1194	1366	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+5	508	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+508	700	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+1	647	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+647	887	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+7	571	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+571	812	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+1	489	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+489	701	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+6	1354	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+1354	1572	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+2	629	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+629	824	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+1	726	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+726	960	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+4	482	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+482	670	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+2	527	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+527	720	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+3	1305	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+1305	1611	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+1	506	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+507	740	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608
+1	488	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	83fbc79c09953e9e
+490	673	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libbbcshop.so	b02db825981f5608

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <include
+        android:visibility="gone"
+        android:id="@+id/layout_todaysale_bannergood"
+        layout="@layout/include_limit_bannergood"/>
+    <include
+        android:visibility="gone"
+        android:id="@+id/layout_todaysale_product"
+        layout="@layout/adapter_common_product"/>
+
+</LinearLayout>

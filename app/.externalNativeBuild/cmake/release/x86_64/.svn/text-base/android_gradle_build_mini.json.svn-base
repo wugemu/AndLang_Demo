@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/Users/jessie/Desktop/SuDian_And/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/jessie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jessie/Desktop/SuDian_And/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+  ],
+  "libraries": {
+    "bbcshop-Release-x86_64": {
+      "artifactName": "bbcshop",
+      "buildCommand": "/Users/jessie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jessie/Desktop/SuDian_And/app/.externalNativeBuild/cmake/release/x86_64 --target bbcshop",
+      "abi": "x86_64",
+      "output": "/Users/jessie/Desktop/SuDian_And/app/build/intermediates/cmake/release/obj/x86_64/libbbcshop.so"
+    }
+  }
+}

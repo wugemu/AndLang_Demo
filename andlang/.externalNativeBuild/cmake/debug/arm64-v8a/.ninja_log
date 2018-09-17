@@ -1,0 +1,27 @@
+# ninja log v5
+0	1039	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+1041	1246	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+2	457	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+457	582	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+0	1028	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+1029	1236	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+1	883	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+883	1103	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+1	589	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+589	801	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+1	1322	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+1322	1584	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+1	1811	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+1811	2024	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+1	2073	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+2073	2304	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+1	614	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+614	805	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+1	548	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+548	739	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+1	470	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+470	653	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+1	452	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+453	640	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863
+0	380	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	5dbd8a4de24e76c8
+382	487	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libandlang.so	c8e900702d7b7863

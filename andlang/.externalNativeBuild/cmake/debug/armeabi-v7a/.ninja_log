@@ -1,0 +1,21 @@
+# ninja log v5
+0	433	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+435	503	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0
+1	587	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+588	773	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0
+1	590	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+590	776	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0
+1	626	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+626	789	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0
+1	953	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+954	1067	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0
+1	557	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+557	738	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0
+1	750	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+750	930	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0
+2	490	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+490	671	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0
+2	484	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+484	668	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0
+1	418	0	CMakeFiles/andlang.dir/src/main/cpp/andlang.cpp.o	13cd8abaabab6c78
+419	494	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libandlang.so	626d117dc26586e0

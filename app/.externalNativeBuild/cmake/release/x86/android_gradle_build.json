@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/jessie/Desktop/SuDian_And/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/jessie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jessie/Desktop/SuDian_And/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"bbcshop-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "bbcshop",
+			"buildCommand" : "/Users/jessie/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/jessie/Desktop/SuDian_And/app/.externalNativeBuild/cmake/release/x86 --target bbcshop",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/jessie/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/jessie/Library/Android/sdk/ndk-bundle/sysroot  -Dbbcshop_EXPORTS -isystem /Users/jessie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -isystem /Users/jessie/Library/Android/sdk/ndk-bundle/sources/android/support/include -isystem /Users/jessie/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include  -isystem /Users/jessie/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=17 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11  -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/jessie/Desktop/SuDian_And/app/src/main/cpp/bbcshop.cpp",
+					"workingDirectory" : "/Users/jessie/Desktop/SuDian_And/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/jessie/Desktop/SuDian_And/app/build/intermediates/cmake/release/obj/x86/libbbcshop.so",
+			"toolchain" : "5392313163514506451"
+		}
+	},
+	"toolchains" : 
+	{
+		"5392313163514506451" : 
+		{
+			"cCompilerExecutable" : "/Users/jessie/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/jessie/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

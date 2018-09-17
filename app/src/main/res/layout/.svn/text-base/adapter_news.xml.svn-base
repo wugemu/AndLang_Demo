@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rect_white_4dp"
+    >
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_margin="18dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/gonggao_message"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <View
+        android:layout_alignTop="@+id/iv_icon"
+        android:layout_alignRight="@+id/iv_icon"
+        android:id="@+id/read_dot"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:background="@drawable/bg_circle_normal"/>
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_toRightOf="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title"
+            android:textSize="16sp"
+            android:textColor="@color/colorBlackText"
+            android:text="标题"
+            />
+        <TextView
+            android:layout_marginRight="16dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_marginTop="15dp"
+            android:text="副标题"
+            android:id="@+id/tv_subtitle"
+            android:textSize="13sp"
+            android:textColor="@color/colorBlackText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@+id/ll_content"
+        android:layout_marginRight="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_date"
+        android:textSize="12sp"
+        android:textColor="@color/colorBlackText2"
+        android:text="2001年2月12日 21：22"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="34dp"
+        />
+</RelativeLayout>

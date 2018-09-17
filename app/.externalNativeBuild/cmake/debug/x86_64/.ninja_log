@@ -1,0 +1,23 @@
+# ninja log v5
+0	1482	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1483	1723	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+60	1692	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1692	1919	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+39	1316	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1316	1562	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+8	1168	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1168	1392	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+4	2306	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+2307	2522	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+11	1047	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1047	1424	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+21	1114	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1114	1352	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+2	1172	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1172	1390	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+2	1613	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1613	1796	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+7	1401	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1401	1642	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636
+2	1240	0	CMakeFiles/bbcshop.dir/src/main/cpp/bbcshop.cpp.o	f512a8f141bcdcd1
+1242	1475	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libbbcshop.so	c6b9e2e2e6b71636

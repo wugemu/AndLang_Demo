@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="限时秒杀"
+        android:textColor="@color/colorBlackText"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <com.handmark.pulltorefresh.library.extras.recyclerview.PullToRefreshRecyclerView
+        android:background="@color/colorWhite"
+        android:id="@+id/ry_limittime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="31dp"
+        android:layout_height="2dp"
+        android:background="@color/colorOrageText"
+        android:layout_gravity="center"/>
+</LinearLayout>

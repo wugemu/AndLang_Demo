@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.home.HomeActivity"
+    tools:showIn="@layout/activity_home"
+    android:clipChildren="false">
+    <View
+        android:id="@+id/m_statusBar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <FrameLayout
+        android:id="@+id/mContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/l_bottom"
+        android:layout_below="@+id/m_statusBar"
+        android:layout_marginBottom="-1dp" />
+
+    <LinearLayout
+        android:id="@+id/l_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/menu_layout_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:clickable="true">
+
+            <com.nyso.sudian.ui.widget.NavRadioButton
+                android:layout_centerInParent="true"
+                android:id="@+id/rb_home_index1"
+                android:button="@null"
+                android:checked="true"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:paddingTop="4dp"
+                android:text="首页"
+                android:textColor="@color/colorBlackText"
+                android:textSize="9sp"
+                app:drawableSize="26dp"
+                app:drawableTop="@drawable/index1_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_brand"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <com.nyso.sudian.ui.widget.NavRadioButton
+                android:layout_centerInParent="true"
+                android:id="@+id/rb_home_index2"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:paddingTop="4dp"
+                android:text="品牌街"
+                android:textColor="@color/colorBlackText"
+                android:textSize="9sp"
+                app:drawableSize="26dp"
+                app:drawableTop="@drawable/index2_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:clickable="true"
+            android:id="@+id/rl_play"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1.0">
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/bg_circle_normal">
+                    <RadioButton
+                        android:layout_centerHorizontal="true"
+                        android:id="@+id/rb_home_index3"
+                        android:button="@null"
+                        android:checked="false"
+                        android:clickable="true"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/colorBlackText"
+                        android:background="@drawable/index3_selector"
+                        android:layout_width="31dp"
+                        android:layout_height="20dp"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/tv_bottom_player"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="玩主"
+                    android:textSize="9sp"
+                    android:textColor="@color/colorBlackText"/>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/iv_play"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_centerInParent="true"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/menu_play_dot"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_toRightOf="@+id/iv_play"
+                android:background="@drawable/bg_circle_normal"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:clickable="true"
+            android:id="@+id/rl_cart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0">
+
+            <com.nyso.sudian.ui.widget.NavRadioButton
+                android:id="@+id/rb_home_index4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:paddingTop="4dp"
+                android:text="购物车"
+                android:textColor="@color/colorBlackText"
+                android:textSize="9sp"
+                app:drawableSize="26dp"
+                app:drawableTop="@drawable/index4_selector" />
+
+            <View
+                android:id="@+id/iv_bonus"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_centerInParent="true"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/menu_dot"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_toRightOf="@+id/iv_bonus"
+                android:background="@drawable/bg_circle_normal"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:clickable="true"
+            android:visibility="visible">
+            <com.nyso.sudian.ui.widget.NavRadioButton
+                android:id="@+id/rb_home_index5"
+                android:button="@null"
+                android:checked="false"
+                android:clickable="true"
+                android:gravity="center_horizontal"
+                android:paddingTop="4dp"
+                android:text="我的"
+                android:textColor="@color/colorBlackText"
+                android:textSize="9sp"
+                app:drawableSize="26dp"
+                app:drawableTop="@drawable/index5_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

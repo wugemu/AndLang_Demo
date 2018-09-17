@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndLang</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tip_no_network">亲，您的网络不可用</string>
+    <string name="tip_log_exit">很抱歉,程序出现异常,即将退出.</string>
+</resources>

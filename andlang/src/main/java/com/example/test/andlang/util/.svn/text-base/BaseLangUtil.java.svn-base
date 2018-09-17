@@ -1,0 +1,86 @@
+package com.example.test.andlang.util;
+
+import android.app.Activity;
+import android.content.Context;
+import android.util.DisplayMetrics;
+import android.webkit.CookieManager;
+import android.webkit.CookieSyncManager;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+
+
+/**
+ * Created by root on 18-3-14.
+ */
+
+public class BaseLangUtil {
+
+    private static StringBuilder sb = new StringBuilder();
+
+    public static boolean isEmpty(String str){
+        if(str==null||str.length()==0){
+            return true;
+        }
+        return false;
+    }
+    //为某个域名 设置cookie
+    public static void syncCookie(Context context,String url,String cookie) {
+        CookieSyncManager.createInstance(context);
+        CookieManager cookieManager = CookieManager.getInstance();
+        cookieManager.setCookie(url, cookie);
+        CookieSyncManager.getInstance().sync();
+    }
+    //获取url中的参数
+    public static String getUrlParma(String url, String key) {
+        try {
+            url = URLDecoder.decode(url, "utf-8");
+        } catch (UnsupportedEncodingException e) {
+
+        }
+        if (url != null && key != null && url.contains(key)) {
+            int start = url.indexOf(key + "=");
+            url.indexOf("&", start);
+            int end = url.indexOf("&", start);
+            if (end == -1) {
+                end = url.length();
+            }
+            return url.substring(start + key.length() + 1, end);
+        }
+        return "";
+    }
+    //Screen Width
+    public static int getDisplayWidth(Activity activity) {
+        DisplayMetrics dm = new DisplayMetrics();
+        activity.getWindowManager().getDefaultDisplay().getMetrics(dm);
+        return dm.widthPixels;
+    }
+
+    //检验手机号码是否有效
+    public static boolean isMobile(String str){
+        if (str == null || "".equals(str)) {
+            return false;
+        }
+        if (str.length() != 11) {
+            return false;
+        }
+        if (!str.startsWith("1")) {
+            return false;
+        }
+        return true;
+    }
+
+    public static final String getLenthTxt(String str,int lenth){
+        sb.delete(0,sb.length());
+        if(isEmpty(str)){
+            return "";
+        }
+        if(str.length()>lenth){
+            sb.append(str.substring(0,lenth));
+            sb.append("...");
+            return sb.toString();
+        }
+        return str;
+    }
+
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rect_white_4dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:text="标题"
+        android:textColor="@color/colorBlackText"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp"
+        android:text="2001年2月12日 21：22"
+        android:textColor="@color/colorBlackText2"
+        android:textSize="12sp" />
+
+    <View
+
+        android:id="@+id/read_dot"
+        android:layout_width="7dp"
+        android:layout_height="7dp"
+        android:layout_alignRight="@+id/tv_title"
+        android:layout_alignTop="@+id/tv_title"
+        android:background="@drawable/bg_circle_normal" />
+
+    <ImageView
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="14dp"
+        android:src="@color/line_color"
+        android:layout_below="@+id/tv_title"
+        android:id="@+id/iv_image"
+        android:layout_marginLeft="15dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+    <TextView
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/iv_image"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/tv_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:ellipsize="end"
+        android:lines="2"
+        android:text="副标题"
+        android:textColor="@color/colorBlackText3"
+        android:textSize="14sp" />
+
+
+
+    <View
+        android:layout_toRightOf="@+id/iv_image"
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tv_subtitle"
+        android:layout_margin="10dp"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/tv_look"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view_line"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="16dp"
+        android:text="点击查看 >"
+        android:textColor="@color/colorBlackText2"
+        android:textSize="13sp" />
+
+</RelativeLayout>

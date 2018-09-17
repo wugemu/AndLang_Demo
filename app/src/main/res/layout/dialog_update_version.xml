@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@mipmap/update_dialog_bg"
+        android:gravity="bottom|center_horizontal"
+        >
+
+        <TextView
+            android:lineSpacingMultiplier="1.2"
+            android:id="@+id/tv_remark"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="经过又一轮吊打程序猿，蜜惠新版经过又一轮吊打程序猿，蜜惠新版经过又一轮吊打程序猿，蜜惠新版经过又一轮吊打程序猿，蜜惠新版经过又一轮吊打程序猿，蜜惠新版经过又一轮吊打程序猿，蜜惠新版经过又一轮吊打程序猿，蜜惠新版"
+            android:padding="8dp"
+            android:textSize="14sp"
+            android:textColor="@color/colorBlackText"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:id="@+id/tv_update"
+            android:background="@drawable/rect_orange_18dp"
+            android:gravity="center"
+            android:text="立即更新"
+            android:textSize="14sp"
+            android:textColor="@color/colorWhite"
+            android:layout_width="160dp"
+            android:layout_height="35dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dialog_close"
+        android:id="@+id/iv_close"
+        />
+</LinearLayout>
+

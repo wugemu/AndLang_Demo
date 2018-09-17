@@ -1,0 +1,250 @@
+package com.nyso.sudian.util;
+
+import com.example.test.andlang.http.HttpU;
+
+/**
+ * Created by Bill56 on 2018-1-11.
+ */
+
+public class Constants {
+
+    //Cookie
+    public static final String COOKIE = HttpU.COOKIE;
+    public static final String ISLOGIN = "isLogin";
+    public static final String EXIT = "exit";
+    public static final String ISREAD = "isRead";
+    public static final String ISLOGIN_FIRST = "isLoginFirst";//登录之后首次进入首页标志
+    // 缓存本地的key
+    public static final String NICK_NAME = "userName";//昵称，可以修改
+    public static final String USER_HEADIMG = "headImage";
+    public static final String PHONE_NUMBER = "phoneNumber";
+    public static final String SERVICE_TIME = "serviceTime";//
+//    public static final String SHOP_HEADIMG = "shopHeadImage";
+
+    public static final String HOME_INDEX_DATA = "HOME";
+    public static final String VERSION = "version";
+    public static final String SEARCH_HISTORY = "searchHistory";
+    public static final int LOGIN_REQUEST = 100;
+
+    //七巧板组件type
+    public static final int TYPE_SINGLE_IMAGE = 1;
+    public static final int TYPE_NAV_BUTTON = 2;
+    public static final int TYPE_SUBJECT_IMAGE = 3;
+    public static final int TYPE_SUBJECT_PRODUCT_ITEM = 6;
+    public static final int TYPE_SPECIAL_TIME = 4;
+    public static final int TYPE_SUBJECT_PRODUCT = 5;
+    public static final int TYPE_HOTSALE_TITLE = 7;
+    public static final int TYPE_HOME_PRODUCT = 8;
+    public static final int TYPE_BACK_TOP = 9;
+    //七巧板组件action
+    //H5活动页
+    public static final String ACTION_H5 = "ACTION_H5";
+    //Banner聚合页
+    public static final String ACTION_BANNERGOODS = "ACTION_BANNERGOODS";
+    //普通商品聚合页
+    public static final String ACTION_NORMALGOODS = "ACTION_NORMALGOODS";
+    //国家馆
+    public static final String ACTION_COUNTRY = "ACTION_COUNTRY";
+    //品牌街
+    public static final String ACTION_BRAND = "ACTION_BRAND";
+    //新品
+    public static final String ACTION_NEW = "ACTION_NEW";
+    //超级量贩
+    public static final String ACTION_WHOLESALE = "ACTION_WHOLESALE";
+    //限时抢购
+    public static final String ACTION_LIMITBUY = "ACTION_LIMITBUY";
+    //商品详情页
+    public static final String ACTION_GOODDETAIL = "ACTION_GOODDETAIL";
+    //回到顶部
+    public static final String ACTION_GOTOP = "ACTION_GOTOP";
+
+
+
+    //错误日志输出地址
+    public static String logDir = "/sdcard/bbcshop/crash/";
+    //本地缓存路径
+    public static String cacheDir = "bbc/Cache";
+    public static String imageDir = "bbc/Image";
+    public static String qrImageDir = "bbc/Image/qrImage";
+    public static String shareImageDir = "bbc/Image/share";
+    public static String tmpImageDir = "bbc/Image/tmp";
+    //是否测试模式
+    public static boolean IS_DEBUG = true;
+
+//    public static final String HOST = ""; //正式环境地址
+    public static final String HOST = "";// 测试环境接口地址
+//    public static final String HOST = "http://192.168.10.81:8083";
+
+    // 登录注册相关
+    //登录
+    public static final String REQ_LOGIN_NEW = "/login";
+    public static final String REQ_LOGIN = "/user/login.shtml";
+
+    //根据邀请码查询用户信息
+    public static final String REQ_FINDBYINVITECODE = "/user/detail/findByInviteCode";
+    //推荐用户列表查询
+    public static final String REQ_INVITEPLIST = "/user/recommend/list";
+    //绑定上级用户
+    public static final String REQ_BINDPARENTUSER = "/user/recommend/bindParentUser";
+    //更新性别
+    public static final String REQ_UPDATESEX = "/user/detail/updateSex";
+    //更新头像和昵称
+    public static final String REQ_UPDATNICKNAME = "/user/detail/updateNickName";
+    //注册/修改密码短信验证码
+    public static final String UPDATE_MOBILE_SENDSMS = "/user/sendMoRandmoCode.shtml";
+    //原手机号码下一步接口
+    public static final String UPDATE_MOBILE_NEXT = "/user/checkMobileCodePwd.shtml";
+    //新手机获取短信接口
+    public static final String UPDATE_MOBILE_SENDSMSTWO = "/user/randomCodeUpdateCell.shtml";
+    //修改手机号码第二步接口
+    public static final String UPDATE_MOBILE = "/user/updateCellByCell.shtml";
+    //收货地址列表
+    public static final String GET_ADDRESS_LIST = "/person/addressMo.shtml";
+    //添加收货地址
+    public static final String ADD_ADDRESS = "/user/insertAddr.shtml";
+    //删除收货地址
+    public static final String DELETE_ADDRESS = "/person/delAddress.shtml";
+    //修改收货地址
+    public static final String EDIT_ADDRESS = "/user/updateAddr.shtml";
+    //根据id查询收货地址
+    public static final String GET_ADDRESS = "/user/getAdrById.shtml";
+    // 修改密码
+    public static final String SUBMIT_MODIFY_PWD = "/person/updateMoPwdByPwd.shtml";
+
+    //订单页面数据统计
+    public static final String GET_ORDER_LIST_NUMBER = "/ord/myTradeCount.shtml";
+    // 获取个人信息
+    public static final String GET_USER_INFO = "/person/personIdCardMo.shtml";
+    // 修改个人信息和实名认证信息
+    public static final String UPDATE_MINE_NICKNAME = "/person/saveUserDetail.shtml";
+    //头像上传
+    public static final String UP_MINE_HEADIMG = "/upload/uploadFile";
+    //获取品牌列表
+    public static final String GET_BRAND_LIST = "/brand/queryBrandList.shtml";
+    //获取商品数据
+    public static final String GET_DATA_LIST = "/solr/searchGoods.shtml";
+    //获取热搜关键词
+    public static final String GET_HOT_KEY = "/find/getHotSearch.shtml";
+    //搜索自动补全
+    public static final String GET_RELATION_PRODUCT_LIST = "/goods/getSearchWords.shtml";
+    //获取分类一级类目
+    public static final String GET_FIRST_CLASS_LIST = "/category/getCategory.shtml";
+    //获取分类二级类目
+    public static final String GET_SECOND_CLASS_LIST = "/category/getCategoryTwo.shtml";
+    //获取版本号
+    public static final String GET_VERSION = "/version/getVersion.shtml";
+    //获取RSAkey
+    public static final String GET_RSA_PUBLICKEY = "/user/getpublickey.shtml";
+    //退出登录
+    public static final String LOGOUT = "/user/loginOut.shtml";
+    //短信登录/找回密码短信验证码
+    public static final String LOGIN_SEND_MSG = "/user/loginSendMsg.shtml";
+    //注册接口
+    public static final String SUBMIT_REGISTER_INFO = "/user/registerApp.shtml";
+    //找回密码
+    public static final String FIND_PWD = "/user/findPwd.shtml";
+    //商品搜索分类数据收集
+    public static final String GET_BRAND_TYPE_LIST = "/solrGoods/getSolrGroup.shtml";
+    //获取限时抢购商品
+    public static final String GET_SPECIAL_SALE = "/goods/activityList.shtml";
+    //获取国家馆列表
+    public static final String GET_COUNTRY_SHOP_LIST = "/goods/queryCountryList.shtml";
+    //获取优惠券列表
+    public static final String GET_COUPON_LIST = "/coupon/getMyConpou.shtml";
+    //兑换优惠券
+    public static final String EXCHANGE_COUPON = "/coupon/getConpouByCode.shtml";
+    //获取收藏列表
+    public static final String GET_COLLECTION_LIST = "/person/myMoCollect.shtml";
+    //根据订单状态获取列表
+    public static final String GET_ORDER_LIST_BY_STATUS = "/ord/orderMo.shtml";
+    //获取售后订单状态列表
+    public static final String GET_ORDER_LIST_BY_SH = "/refund/queryRefundList.shtml";
+    //根据订单号获取订单详情
+    public static final String GET_ORDER_INFO_BY_NO = "/ord/tradeMoDetail.shtml";
+    //购物车列表
+    public static final String GET_CART_LIST = "/trade/shopCarIndexMobile.shtml";
+    //公告列表
+    public static final String GET_ALL_ANNOUNCEMENT = "/active/queryNoticeList.shtml";
+    //消息中心公告信息
+    public static final String GET_NEWS_CENTER_ANNOUNCEMENT = "/active/newNotice.shtml";
+    //根据id删除购物车商品
+    public static final String DELETE_CART_BY_ID = "/trade/delShopCar.shtml";
+    //批量加入购物车
+    public static final String BATCH_ADD_CART = "/trade/addShopCar.shtml";
+//    //确认收货
+    public static final String UPDATE_ORDER_INFO = "/ord/updateStatus.shtml";
+    //获取物流详情
+    public static final String GET_LOGISTICS_INFO_BY_POST_ID = "/ord/getMoLogist.shtml";
+    //删除订单信息
+    public static final String DELETE_ORDER_BY_NO = "/ord/delTrade.shtml";
+    //取消订单
+    public static final String CANCLE_ORDER_BY_NO = "/trade/updateTrade.shtml";
+    //获取商品详情
+    public static final String GET_PRODUCT_INFO = "/goods/getDetailMo.shtml";
+    //获取购物车数量
+    public static final String GET_CART_COUNT = "/carCount.shtml";
+    //检查收货地址是否可配送
+    public static final String CHECK_POST = "/goods/getPostRule.shtml";
+    //到货通知手机号码提交
+    public static final String ADD_RECEIVE_NOTIFCATION = "/goods/notify/addNotify.shtml";
+    //领取优惠券
+    public static final String GET_COUPON = "/goods/drawCoupon.shtml";
+    //添加收藏 :
+    public static final String ADD_PRODUCT_TO_COLLECTION = "/person/insertCollect.shtml";
+    //取消收藏
+    public static final String DELETE_PRODUCT_TO_COLLECTION = "/person/delCollectByGoodsId.shtml";
+
+    //确认订单初始化数据
+    public static final String GET_INFO_BY_SETTLEMENT = "/trade/toMoPalaceOrder.shtml";
+    //提交订单
+    public static final String CREATE_ORDER = "/trade/createOrder.shtml";
+    //首页接口
+    public static final String GET_HOME_DATA_FIRST = "/indexMobileApp.shtml.shtml";
+    //支付接口
+    public static final String POST_PAY = "/trade/toPay.shtml";
+    //联登
+    public static final String AUTH_LOGIN = "/appLogin.shtml";
+    //banner详情页标题或头图获取
+    public static final String GET_BANNER_DETAIL_DATA = "/find/themeBanner.shtml";
+    //设置默认地址
+    public static final String SET_DEF_ADDRESS = "/user/mgrAddrFlag.shtml";
+    //获取售后详情
+    public static final String GET_REFUND_DETIAL = "/refund/queryRefundDetail.shtml";
+    //获取申请退款信息
+    public static final String GET_SHOW_REFUND = "/refund/getShowRefund.shtml";
+    //取消退款
+    public static final String CANCEL_REFUND = "/refund/delApplyApp.shtml";
+    //保存退货物流信息
+    public static final String SAVE_POST_INFO = "/refund/savePostApp.shtml";
+    //修改或新增退款
+    public static final String ADD_MODIFY_REFUND_INFO = "/refund/addRefundReasonApp.shtml";
+
+
+
+
+    // HTML URL
+    //默认404
+    public static final String ERR_DEF = "file:///android_asset/www/404.html";
+    // 公司介绍
+    public static final String COMPANY_INTRODUCTION = "/m-html/app/about-app.html?title=公司介绍";
+    //注册协议
+    public static final String REGISTER_PROTOCOL = "/m-html/user/protocol.html?title=用户服务协议";
+    // 跨境介绍
+    public static final String KUAJINGJIESHAO = "/m-html/help/intro.html?isApp&title=跨境介绍";
+    // 常见问题
+    public static final String CHANGJIANWENTI = "/m-html/help/day.html?isApp&title=常见问题";
+    // 优惠券说明
+    public static final String YOUHUIQUANSHUOMING = "/m-html/help/coupon.html?isApp&title=优惠券说明";
+    // 售后说明
+    public static final String SHOUHOUSHUOMING = "/m-html/help/server.html?isApp&title=售后说明";
+    // 在线客服
+    public static final String ONLINE_SERVICE = "https://mihui1.udesk.cn/im_client/?web_plugin_id=15054&cur_title=%E5%94%AF%E5%A6%AE%E6%B5%B7%E8%B4%AD-%E6%B5%B7%E6%B7%98%E6%99%BA%E8%83%BD%E4%BE%9B%E5%BA%94%E9%93%BE_%E6%AD%A3%E5%93%81%E7%9B%B4%E9%87%87&src_url=https%253A%252F%252Fwww.weinihaigou.com%252Fuser%252FpersonLogin.shtml&cur_url=https%253A%252F%252Fwww.weinihaigou.com%252Findex.shtml&pre_url=https%3A%2F%2Fwww.weinihaigou.com%2F&agent_id=26743&_INVITE_USER_KEY=848827bc-14ec-4e2e-b850-a3ec779ec96b&free=noAgent&title=在线客服";
+    // 公告
+    public static final String GONGGAO = "/m-html/my/public-details.html?title=公告&id=";
+    // 售后申请
+    public static final String SHOUHOUSHENQING = "/m-html/refund/refund.html?title=售后&tradeNo=";
+    // 售后列表
+    public static final String SHOUHOULIST = "/m-html/refund/service.html?title=售后";
+
+
+}

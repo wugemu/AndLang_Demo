@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.BrandFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/bg_rect_new4"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="16dp"
+                android:src="@mipmap/search" />
+
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/tv_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:hint="搜索在售品牌"
+                android:textColor="@color/colorBackGroud"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.nyso.sudian.ui.widget.PinnedSectionListView
+                android:divider="@null"
+                android:scrollbars="none"
+                android:id="@+id/lv_brand_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <!--</com.nyso.supply.ui.widget.PinnedSectionListView>-->
+            <!--<ListView-->
+            <!---->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!---->
+            <!--android:divider="@null"-->
+            <!--android:scrollbars="none" />-->
+
+
+
+            <com.nyso.sudian.ui.widget.pysortlist.SideBar
+                android:id="@+id/sidrbar"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|center" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+</RelativeLayout>
